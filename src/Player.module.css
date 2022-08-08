@@ -1,3 +1,6 @@
-.text {
-  color: green;
+.player {
+  display: flex;
+}
+.container {
+  /* display: block; */
 }

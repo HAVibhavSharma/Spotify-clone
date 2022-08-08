@@ -1,7 +1,5 @@
-* {
-  background-color: black;
-}
 .Login {
+  background-color: black;
   display: grid;
   place-items: center;
   margin: 0;

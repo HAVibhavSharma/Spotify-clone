@@ -1,9 +1,18 @@
 import React from "react";
+import Body from "./Body";
 import styles from "./Player.module.css";
+import Sidebar from "./Sidebar";
+import Footer from "./Footer";
 function Player() {
   return (
     <>
-      <h1 className={styles.text}>this is the player</h1>
+      <div className={styles.conatainer}>
+        <div className={styles.player}>
+          <Sidebar />
+          <Body />
+        </div>
+        <Footer />
+      </div>
     </>
   );
 }
